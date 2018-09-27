@@ -1,4 +1,4 @@
-Smoky. Machine V1.0.0 - Alpha
+Smoky. Sample_Machine V1.0.0 - Alpha
 ===============================
 
 Description
@@ -9,6 +9,7 @@ Description
 
 >이 저장소는 데이터 전송 장치에 설치될수있는 코드입니다. 이것은 단지 한 예시므로 다양한 방식으로 사용할수있습니다.
 
+
 Used Product
 -----------
 
@@ -16,6 +17,16 @@ Used Product
 
 >2.MQ-7 (gas sensor)
 
+
+Pin Setting
+----------
+MQ-7 ||  ESP8266
+
+VCC -> 3.3V
+
+GND -> GND
+
+AD -> A0 
 
 Installation
 ------------
@@ -31,6 +42,9 @@ Tools-Board:"WeMos D1 R1"  &  Tools-PORT-{Machine's Port}
 ~~~
 
 5.Upload.
+
+
+
 
 1.ESP8266을 컴퓨터에 연결합니다.
 
