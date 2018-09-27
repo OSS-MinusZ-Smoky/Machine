@@ -19,7 +19,7 @@ Used Product
 
 Installation
 ------------
->1.Connect Your ESP8266 to Your Computer.
+1.Connect Your ESP8266 to Your Computer.
 
 2.Download ESP8266 drivers.
 
@@ -32,7 +32,7 @@ Tools-Board:"WeMos D1 R1"  &  Tools-PORT-{Machine's Port}
 
 5.Upload.
 
->1.ESP8266을 컴퓨터에 연결합니다.
+1.ESP8266을 컴퓨터에 연결합니다.
 
 2.ESP8266 드라이버를 설치합니다.
 
