@@ -30,7 +30,7 @@ AD -> A0
 
 Installation
 ------------
->
+
 
 1.Connect Your ESP8266 to Your Computer.
 
@@ -45,10 +45,7 @@ Tools-Board:"WeMos D1 R1"  &  Tools-PORT-{Machine's Port}
 
 5.Upload.
 
-
-
->
-
+<hr>
 1.ESP8266을 컴퓨터에 연결합니다.
 
 2.ESP8266 드라이버를 설치합니다.
@@ -61,3 +58,9 @@ Tools-Board:"WeMos D1 R1"  &  Tools-PORT-{Machine's Port}
 ~~~
 
 5.업로드 시킵니다.
+
+
+
+
+
+
