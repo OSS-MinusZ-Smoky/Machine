@@ -54,7 +54,7 @@ void loop(void){
   http.end();
 
    
-  if (httpCode = 200){
+  if (httpCode == 200){
     Serial.print("Sended Data to ");
     Serial.print(URL);
     Serial.print(" ");
