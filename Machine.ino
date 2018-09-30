@@ -7,8 +7,8 @@
 #define FREQUENCY 5000 // send post frequency 1=1ms
 #define ALALOGPIN A0 // MQ-7 Sensor 
 
-const char* SSID = "AndroidHotspot5158"; // input your wifi ssid
-const char* PASSWORD = "ab12345678"; // input your password
+const char* SSID = "wifi ssid"; // input your wifi ssid
+const char* PASSWORD = "wifi password"; // input your password
 
 const String URL = "http://192.168.43.225:3000/"; // input your server address
 
@@ -49,7 +49,7 @@ void loop(void){
   HTTPClient http;
   http.begin(URL);
   http.addHeader("Content-Type", "application/json");
-  String data = String ("{\"state\":\"")+String(Sensor)+String("\"}");   // input your datad
+  String data = String ("{\"state\":\"")+String(Sensor)+String("\"}");   // input your data
   int httpCode = http.POST(data);
   http.end();
 
