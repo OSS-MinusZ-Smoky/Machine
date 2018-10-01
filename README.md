@@ -22,7 +22,7 @@ Pin Setting
 ----------
 MQ-7 ||  ESP8266
 
-VCC -> 3.3V
+VCC -> 3.3V/5.5V
 
 GND -> GND
 
