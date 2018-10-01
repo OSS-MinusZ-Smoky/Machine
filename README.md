@@ -65,3 +65,6 @@ Tools-Board:"WeMos D1 R1"  &  Tools-PORT-{Machine's Port}
 
 
 
+## License
+
+This server is released under the [MIT License](https://opensource.org/licenses/MIT).
