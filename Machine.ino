@@ -10,7 +10,7 @@
 const char* SSID = "wifi ssid"; // input your wifi ssid
 const char* PASSWORD = "wifi password"; // input your password
 
-const String URL = "http://192.168.43.225:3000/"; // input your server address
+const String URL = "http://18.218.196.86:9999/"; // input your server address
 
 
 ESP8266WebServer server(80);
